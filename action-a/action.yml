@@ -1,0 +1,17 @@
+name: "Google Search"
+description: "Surfing the query"
+author: "rakeshsagalagatte@gmail.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "Python"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
