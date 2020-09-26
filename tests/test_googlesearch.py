@@ -4,8 +4,10 @@ Created on May 6, 2017
 @author: anthony
 '''
 import unittest
+#from googlesearch.googlesearch import GoogleSearch
+import sys
+sys.path.append('../googlesearch')
 from googlesearch.googlesearch import GoogleSearch
-
 class TestGoolgeSearch(unittest.TestCase):
 
     def test_search(self):
@@ -18,3 +20,4 @@ class TestGoolgeSearch(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
