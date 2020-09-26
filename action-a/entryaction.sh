@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-python3 ../tests/test_googlesearch.py
+python ../tests/test_googlesearch.py
